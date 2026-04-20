@@ -13,10 +13,10 @@ Only Rows with OK tag are used for calculation
 ## Configuring appsettings.json
 
 example data row
-Streetname 10 A 11, 00100, HEelsinki, GroupA
+Streetname 10 A 11;00100;Helsinki;Group A & Group B
 
 "GeocodingMode" // Query sent to API
-StreetAddress = "Streetname 10"
+StreetAddress = "Streetname 10, 00100 HELSINKI"
 PostalCode = "00100"
 City = "Helsinki"
 
@@ -36,6 +36,14 @@ Fallback = Try next available field in priority order: StreetAddress → PostalC
 "AverageMethod" // Method
 Flat = Arithmetic mean of lat/lon directly
 Spherical = Convert each point to 3D cartesian (x,y,z) → average → convert back to lat/lon
+
+"CsvConfig"{ // Make sure values in here match your own csv files
+    "GroupSeparator" = "&" // This is separator for Group field, will ignore spaces after or before separator "a&b", "a & b", "a    &b" all will work similarly
+}
+
+## How to use
+
+1. Change your appsettings.json and change values that are needed
 
 
 ## License & Attribution

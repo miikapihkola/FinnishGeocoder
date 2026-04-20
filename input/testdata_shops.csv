@@ -1,0 +1,21 @@
+﻿Lähiosoite;Postinumero;Postitoimipaikka;Jäsenyydet / Osasto / Title
+Toikansuontie 4;53500;Lappeenranta;Kesko
+Urho Kekkosen katu 1;00100;Helsinki;Kesko  &  Kauppakeskus
+Uudenmaantie 17;20700;Turku;Kesko&Kauppakeskus
+Revonkuja 2;90530;Oulu;Kesko
+Launeenkatu 86;15610;Lahti
+1. linja 1 A 2;08150;Lohja;Edge case test
+Mäentakuusenkatu 1;33580;Tampere;Missing field test
+;33580;Tampere;Missing field test
+;;Tampere;Missing field test
+Mäentakuusenkatu 1;;Tampere;Missing field test
+Mäentakuusenkatu 1;33580;;Missing field test
+Mäentakuusenkatu 1;;;Missing field test
+;;;Missing field test
+Lootsi tn 6;10151;Tallinn;OOB test
+RandomStreetAddress 1;12345;RandomCity;Wrong info test
+Mäentakuusenkatu;33580;Tampere;Wrong info test
+RandomStreetAddress 1;33580;Tampere;Wrong info test
+Mäentakuusenkatu 1;12345;Tampere;Wrong info test
+Mäentakuusenkatu 1;33580;RandomCity;Wrong info test
+Mäentakuusenkatu 1;12345;RandomCity;Wrong info test
