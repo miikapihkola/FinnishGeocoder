@@ -45,6 +45,10 @@ Spherical = Convert each point to 3D cartesian (x,y,z) → average → convert b
 
 1. Change your appsettings.json and change values that are needed
 
+### Geocoded csv info
+MatchedLabel // What the API matched, useful for manual review
+Confidence // 1.0 for perfect match, null if not returned or not applicable
+
 
 ## License & Attribution
 

@@ -11,4 +11,10 @@
     <Folder Include="output\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="33.*" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.*" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="8.*" />
+  </ItemGroup>
+
 </Project>
